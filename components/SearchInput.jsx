@@ -5,7 +5,6 @@ import { Plus } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "./ui/button";
-import Link from "next/link";
 import useLoginModal from "@/hooks/useLoginModal";
 
 function SearchInput({ currentUser, type }) {
