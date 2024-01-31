@@ -64,7 +64,7 @@ function ResetPasswordPage() {
                       <FormControl>
                         <Input
                           {...field}
-                          placeholder="john.doe@example.com"
+                          placeholder="email@example.com"
                           type="email"
                         />
                       </FormControl>
