@@ -1,6 +1,6 @@
 "use client";
 import { signOut } from "next-auth/react";
-import { LayoutDashboard, LogIn, LogOut, Plus, User } from "lucide-react";
+import { LayoutDashboard,  LogOut, Plus, User } from "lucide-react";
 import { useCallback, useState } from "react";
 import useRegisterModal from "@/hooks/useRegisterModal";
 import useLoginModal from "@/hooks/useLoginModal";

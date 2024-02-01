@@ -19,6 +19,8 @@ function ClientLocal({ product, currentUser }) {
         "viewedCategories",
         JSON.stringify(storedCategories)
       );
+
+      
       if (currentUser) {
         let storedCategories = localStorage.getItem("viewedCategories");
 

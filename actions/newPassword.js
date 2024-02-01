@@ -32,8 +32,8 @@ export default async function newPassword(password, token) {
     const hashedPassword = await bcrypt.hash(password, 10);
 
     await prismadb.user.update({
-      where: { token },
-      data: { hashedPassword, token: "" },
+      where: { token: token },
+      data: { hashedPassword, token: null },
     });
 
     return { success: "Password updated!" };

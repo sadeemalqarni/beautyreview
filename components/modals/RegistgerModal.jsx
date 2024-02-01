@@ -13,7 +13,6 @@ import useLoginModal from "@/hooks/useLoginModal";
 import { Button } from "../ui/button";
 
 export default function RegistgerModal() {
-  const [open, setOpen] = useState(false);
 
   const registerModal = useRegisterModal();
   const loginModal = useLoginModal();

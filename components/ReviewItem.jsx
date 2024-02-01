@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import { useSession } from "next-auth/react";
 import { Avatar, AvatarImage } from "./ui/avatar";
 
 const ReviewItem = ({

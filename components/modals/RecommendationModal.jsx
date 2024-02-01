@@ -18,7 +18,7 @@ import {
 } from "../ui/form";
 import { Checkbox } from "../ui/checkbox";
 import { Button } from "../ui/button";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import {  useSearchParams } from "next/navigation";
 import {
   Select,
   SelectContent,

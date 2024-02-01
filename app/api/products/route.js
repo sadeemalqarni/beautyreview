@@ -2,20 +2,6 @@ import prismadb from "@/lib/prismadb";
 import { NextResponse } from "next/server";
 import getCurrentUser from "@/actions/getCurrentUser";
 
-export async function GET(req) {
-  try {
-    const products = await prismadb.product.findMany({
-      take: 4,
-      include: {
-        images: true,
-      },
-    });
-
-    return NextResponse.json(products);
-  } catch (error) {
-    return new NextResponse("Internal error", { status: 500 });
-  }
-}
 
 export async function POST(req) {
   try {

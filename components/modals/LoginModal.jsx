@@ -10,7 +10,6 @@ import Input from "../inputs/Input";
 import { useRouter } from "next/navigation";
 import useRegisterModal from "@/hooks/useRegisterModal";
 import { Button } from "../ui/button";
-import Link from "next/link";
 
 export default function LoginModal() {
   const router = useRouter();

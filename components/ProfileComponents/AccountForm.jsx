@@ -4,7 +4,7 @@ import { useState } from "react";
 import * as z from "zod";
 import axios from "axios";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useParams, useRouter } from "next/navigation";
+import {  useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import {
   Form,
@@ -26,8 +26,7 @@ const formSchema = z.object({
   password: z.string() || null,
 });
 
-function AccountForm({ initialData, currentUser }) {
-  const params = useParams();
+function AccountForm({ initialData }) {
   const router = useRouter();
 
   const [loading, setLoading] = useState(false);

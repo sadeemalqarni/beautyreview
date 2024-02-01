@@ -10,7 +10,6 @@ export default async function Home() {
 
   return (
     <main className="homepage">
-      {/* Start of Hero Section */}
       <div className="app__hero">
         <div className="app__hero-inner">
           <Image
@@ -28,11 +27,8 @@ export default async function Home() {
         <CardsSection currentUser={currentUser} />
         <AdsSection />
       </div>
-      {/* End of Hero Section */}
       <RecommendedProducts currentUser={currentUser} />
-      {/* Start Of Latest Products Section */}
       <LatestProducts />
-      {/* End Of Latest Products Section */}
     </main>
   );
 }
