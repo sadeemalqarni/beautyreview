@@ -261,7 +261,7 @@ export default function RecommendationModal({ categories }) {
                 render={({ field }) => (
                   <FormItem className="space-y-3">
                     <FormLabel className="font-bold text-lg">
-                      Would you recommed this product to ther other?
+                      Would you like the most recommended products?
                     </FormLabel>
                     <FormControl>
                       <RadioGroup
